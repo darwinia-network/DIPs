@@ -1,7 +1,7 @@
 ---
 dip: 1
-title: Staking Commission
-description: This rule relates to the collator election and reward distribution through staking commission.
+title: Staking Commission Specification
+description: This specification affects the validators election and reward distribution.
 authors: Darwinia Network (@AurevoirXavier, @hujw77, @hackfisher, @xiaoch05)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1238, https://github.com/orgs/darwinia-network/discussions/1272
 status: Final
