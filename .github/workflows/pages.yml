@@ -30,20 +30,19 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-          cache: 'poetry'
       - name: Build
         run: |
           python3 .github/replace.py
           cd website
           pip3 install poetry
-          poetry shell
-          make html
+          poetry run poetry install --no-root
+          poetry run make html
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "website/_build"
+          path: "website/_build/html"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
