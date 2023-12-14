@@ -10,6 +10,7 @@ created: 2023-11-27
 ---
 
 
+# DIP-1
 ## Abstract
 This DIP outlines the staking commission specification applicable on Darwinia and Crab.
 
@@ -63,4 +64,4 @@ let abr = remain * aa_of_pa; // , which is `45 * 90 / 135 = 30`.
 
 
 ## Copyright
-Copyright and related rights waived via [CC0](../LICENSE).
+Copyright and related rights waived via [CC0](https://github.com/darwinia-network/DIPs/blob/main/LICENSE).

@@ -10,6 +10,7 @@ created: 2023-11-28
 ---
 
 
+# DIP-0
 ## Abstract
 This DIP explicates the staking power specification applicable to Darwinia and Crab.
 
@@ -60,4 +61,4 @@ assert_eq!(power_of(S2), 75 / 100 * HALF_POWER + 25 / 50 * HALF_POWER);
 
 
 ## Copyright
-Copyright and related rights waived via [CC0](../LICENSE).
+Copyright and related rights waived via [CC0](https://github.com/darwinia-network/DIPs/blob/main/LICENSE).
