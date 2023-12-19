@@ -20,24 +20,24 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: github-pages
+      name: Deploy pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Fetch latest code
         uses: actions/checkout@v4
       - name: Setup python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      - name: Build
+      - name: Build pages
         run: |
           python3 .github/replace.py
           cd website
           pip3 install poetry
           poetry run poetry install --no-root
           poetry run make html
-      - name: Setup Pages
+      - name: Configure pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
