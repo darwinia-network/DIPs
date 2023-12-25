@@ -32,7 +32,7 @@ Before Darwinia adopts the new inflation model, this DIP will make minor adjustm
    This approach aims to maintain long-term token value stability and promote sustainable development of the network.
 2. To better balance responsibilities and rewards within the relay chain-parachain structure, where collators play a more indirect role in security,
    it's logical to adjust block production incentives to reflect their updated contribution to consensus maintenance and network protection.
-3. To enhance utility for *RING* and *KTON* tokens, introducing tangible use cases is essential.
+3. To enhance utility for *RING*, introducing tangible use cases is essential.
    Doing so encourages wider token engagement within network activities and increases their practical value.
 
 ### References
