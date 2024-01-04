@@ -1,7 +1,6 @@
 ---
 dip: 0
 title: Staking Power Specification
-description: This specification details the functioning of staking power.
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
 discussions-to: None
 status: Final
@@ -61,4 +60,4 @@ assert_eq!(power_of(S2), 75 / 100 * HALF_POWER + 25 / 50 * HALF_POWER);
 
 
 ## Copyright
-Copyright and related rights waived via [CC0](https://github.com/darwinia-network/DIPs/blob/main/LICENSE).
+Copyright and related rights waived via [CC0](../LICENSE).

@@ -1,7 +1,6 @@
 ---
 dip: 1
 title: Staking Commission Specification
-description: This specification affects the validators election and reward distribution.
 authors: Darwinia Network (@AurevoirXavier, @hujw77, @hackfisher, @xiaoch05)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1238, https://github.com/orgs/darwinia-network/discussions/1272
 status: Final
@@ -12,7 +11,7 @@ created: 2023-11-27
 
 # DIP-1
 ## Abstract
-This DIP outlines the staking commission specification applicable on Darwinia and Crab.
+This DIP details the staking commission framework for Darwinia and Crab, impacting validator selection and reward allocation.
 
 
 ## Rationale
@@ -64,4 +63,4 @@ let abr = remain * aa_of_pa; // , which is `45 * 90 / 135 = 30`.
 
 
 ## Copyright
-Copyright and related rights waived via [CC0](https://github.com/darwinia-network/DIPs/blob/main/LICENSE).
+Copyright and related rights waived via [CC0](../LICENSE).

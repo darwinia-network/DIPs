@@ -1,7 +1,6 @@
 ---
 dip: 2
 title: Seamless Account Integration Between EVM and Substrate
-description: This proposal introduces the adoption of `H160` account addresses in Substrate-based chains to unify address formats with EVM, which aims to simplify user interactions and enhance compatibility with the Ethereum ecosystem.
 authors: Darwinia Network (@AurevoirXavier, @boundless-forest, @hackfisher)
 status: Final
 type: Core
@@ -13,7 +12,6 @@ created: 2023-12-13
 ## Abstract
 To facilitate Ethereum integration, Substrate-based chains are transitioning to `H160` account addresses, using `ECDSA` for signatures.
 This change streamlines the user experience by consolidating address types and wallets.
-
 
 ## Rationale
 Ethereum-like and Substrate-based chains differ significantly in their account format.
@@ -48,4 +46,4 @@ All pallet addresses have been truncated to 20 bytes; simply remove the trailing
 
 
 ## Copyright
-Copyright and related rights waived via [CC0](https://github.com/darwinia-network/DIPs/blob/main/LICENSE).
+Copyright and related rights waived via [CC0](../LICENSE).
