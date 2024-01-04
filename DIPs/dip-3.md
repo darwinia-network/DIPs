@@ -1,6 +1,6 @@
 ---
 dip: 3
-title: Introduce EIP-1559 to Reform the Network Fee Market
+title: Introduce EIP-1559-like Mechanism to Reform the Network Fee Market
 authors: Darwinia Network
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1163
 status: Final
@@ -11,10 +11,10 @@ created: 2023-12-14
 
 # DIP-3
 ## Abstract
-This DIP suggests implementing `EIP-1559` within the Darwinia Network to transform its fee structure.
+This DIP suggests implementing `EIP-1559`-like mechanism within the Darwinia Network to transform its fee structure.
 
 Under this proposal, all transaction fees would be burned, while tips would be awarded directly to block authors.
-This aligns with our future inflation strategy, motivates collators, and paves the way for practical applications of *RING* and *KTON* tokens.
+This aligns with our future inflation strategy, motivates collators, and paves the way for practical applications of *RING*.
 The result is a more predictable, sustainable, and user-centric ecosystem.
 
 Before Darwinia adopts the new inflation model, this DIP will make minor adjustments to the inflation mechanism to prevent the reissuance of burned assets.
