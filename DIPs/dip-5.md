@@ -24,13 +24,18 @@ The envisioned restructuring is projected to enhance the staking models' efficie
 
 
 ## Rationale
-The incumbent collator hybrid staking system within the Darwinia network has precipitated several complexities. The amalgamation of divergent incentivization objectives has rendered the system opaque and challenging to comprehend. Moreover, the binding of these incentives has resulted in restricted strategic actions, epitomizing suboptimal design.
+The incumbent collator hybrid staking system within the Darwinia network has precipitated several complexities.
+The amalgamation of divergent incentivization objectives has rendered the system opaque and challenging to comprehend.
+Moreover, the binding of these incentives has resulted in restricted strategic actions, epitomizing suboptimal design.
 
-To address these issues, this proposal underscores the necessity to decouple the *KTON* from the collator staking framework. Subsequently, the reformed collator staking would consist exclusively of the *RING*. This separation is anticipated to amplify the visibility of the *KTON* staking, thereby augmenting the potency of its incentives.
+To address these issues, this proposal underscores the necessity to decouple the *KTON* from the collator staking framework. Subsequently, the reformed collator staking would consist exclusively of the *RING*.
+This separation is anticipated to amplify the visibility of the *KTON* staking, thereby augmenting the potency of its incentives.
 
-As a corollary of these changes, Collators will cease to partake in the commission distributions deriving from *KTON* stakes. Nevertheless, given that the quintessential function of Collators is to sustain network liveness, the commission incentives derived from *RING* stakes are deemed to be wholly adequate.
+As a corollary of these changes, Collators will cease to partake in the commission distributions deriving from *KTON* stakes.
+Nevertheless, given that the quintessential function of Collators is to sustain network liveness, the commission incentives derived from *RING* stakes are deemed to be wholly adequate.
 
-Furthermore, this proposal advocates for the dispensation of the convoluted and laborious-to-communicate `Power` concept presently embedded in the collator staking paradigm. The clarity of nomenclature and conceptualization is paramount, as it facilitates community discourse and the elucidation of perspectives.
+Furthermore, this proposal advocates for the dispensation of the convoluted and laborious-to-communicate `Power` concept presently embedded in the collator staking paradigm.
+The clarity of nomenclature and conceptualization is paramount, as it facilitates community discourse and the elucidation of perspectives.
 
 It is imperative to reiterate that the economic incentives for both the *RING* and *KTON* pools are envisioned to be preserved at their current magnitude, thereby circumventing discussions pertinent to the quantum of incentives.
 
