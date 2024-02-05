@@ -9,7 +9,14 @@ created: 2023-11-28
 ---
 
 
-# DIP-0
+# DIP-0 (DEPRECATED)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!! Replaced by [DIP-5](dip-5.md) !!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 ## Abstract
 This DIP explicates the staking power specification applicable to Darwinia and Crab.
 

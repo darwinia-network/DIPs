@@ -13,6 +13,7 @@ created: 2023-12-13
 To facilitate Ethereum integration, Substrate-based chains are transitioning to `H160` account addresses, using `ECDSA` for signatures.
 This change streamlines the user experience by consolidating address types and wallets.
 
+
 ## Rationale
 Ethereum-like and Substrate-based chains differ significantly in their account format.
 
