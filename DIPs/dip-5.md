@@ -53,7 +53,12 @@ These changes are designed to streamline the staking process and enhance their e
    1. Abrogate the concept of Power in the context of election mechanics, replacing it with a straightforward *RING*-centric approach.
    2. Overhaul the election voting algorithm to accommodate the new framework that privileges *RING* as the sole medium for voting and election processes.
 3. Implement *KTON* staking module.
-   1. TBD.
+   1. Deploy the *KTON Staker* contract.
+   2. Periodically allocate the RING inflation rewards into the *KTON Staker* contract.
+   3. Users must personally manually stake their KTON tokens to the *KTON Staker* contract in order to obtain rewards.
+   4. Users must manually claim the rewards.
+   5. There is no lock-up period for the staking, and the rewards are solely based on the amount and duration of the user's staking.
+   6. By implementing the `StakingRewards` contract based on the Synthetix standard contract, it significantly alleviates the burden of auditing.
 
 These amendments aim to fortify the transparency and simplicity of the staking mechanism, ensuring that stakeholders can engage with the system with greater clarity and confidence.
 
