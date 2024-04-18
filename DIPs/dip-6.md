@@ -13,6 +13,7 @@ created: 2024-04-10
 ## Abstract
 Restrict the rate of entry and exit in collator staking while eliminating the unstaking period to offer a more flexible staking system.
 
+
 ## Rationale
 1. Unlike the Darwinia1 solochain model, under the relaychain parachain model,
    security is upheld by validators on the relaychain side. Collators are solely responsible for block collection;
@@ -27,6 +28,7 @@ Restrict the rate of entry and exit in collator staking while eliminating the un
 4. Before transitioning to another governance model, limitations exist within *OpenGov*. When users lock their tokens in other DApps,
    they are unable to utilize those tokens to vote in referenda and contribute to a healthy community.
    This proposed mechanism addresses this issue specifically within the staking module, allowing users to withdraw their tokens immediately to participate in referenda.
+
 
 ## Specification
 TODO:
