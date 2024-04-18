@@ -1,11 +1,11 @@
 ---
 dip: 5
 title: KTON Staking
-authors: Darwinia Network
+authors: Darwinia Network (@AurevoirXavier, @hujw77, @hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1393
 status: Final
 type: Economic
-created: 2024-1-29
+created: 2024-01-29
 ---
 
 

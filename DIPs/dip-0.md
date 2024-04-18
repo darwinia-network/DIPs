@@ -2,7 +2,6 @@
 dip: 0
 title: Staking Power Specification
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
-discussions-to: None
 status: Final
 type: Economic
 created: 2023-11-28
