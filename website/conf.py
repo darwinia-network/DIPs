@@ -2,7 +2,7 @@ project = "dips"
 copyright = "2023, Darwinia Network"
 author = "Darwinia Network"
 
-extensions = ["myst_parser"]
+extensions = ["myst_parser", "sphinx_last_updated_by_git"]
 
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
