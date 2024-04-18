@@ -1,7 +1,7 @@
 ---
 dip: 3
 title: Introduce EIP-1559-like Mechanism to Reform the Network Fee Market
-authors: Darwinia Network
+authors: Darwinia Network (@hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1163
 status: Final
 type: Economic
