@@ -2,7 +2,7 @@ project = "dips"
 copyright = "2023, Darwinia Network"
 author = "Darwinia Network"
 
-extensions = ["myst_parser", "sphinx_last_updated_by_git"]
+extensions = ["myst_parser", "sphinx_favicon", "sphinx_last_updated_by_git"]
 
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
@@ -17,3 +17,8 @@ html_theme_options = {
     "navigation_with_keys": True,
     "sidebar_hide_name": True,
 }
+
+
+favicons = [
+    {"href": "favicon.svg"},
+]
