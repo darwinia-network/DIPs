@@ -8,8 +8,13 @@ type: Economic
 created: 2023-11-27
 ---
 
+# DIP-1 (DEPRECATED)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-# DIP-1
+!!! Replaced by [DIP-6](dip-6.md) !!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ## Abstract
 This DIP details the staking commission framework for Darwinia and Crab, impacting validator selection and reward allocation.
 
