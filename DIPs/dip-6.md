@@ -4,7 +4,7 @@ title: Flexible and Secure Staking System
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1455
 status: Final
-type: Security
+type: Economic
 created: 2024-04-10
 ---
 
