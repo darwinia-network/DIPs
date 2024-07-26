@@ -54,7 +54,7 @@ This proposal aims to migrate the original collator staking and deposit function
 - Provide `deposit()` interface for user deposit RING with months.
   - In return, a set number of KTONs reward to users.
   - As a voucher, the user will receive a Deposit NFT.
-- Prvode `claim()` interface for user withdraw RING.
+- Provide `claim()` interface for user withdraw RING.
   - If on time, the Deposit NFT will be burned. 
   - If prematurely, a penalty of 3x KTON is required.
 
