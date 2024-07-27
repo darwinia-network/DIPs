@@ -1,7 +1,7 @@
 ---
 dip: 1
 title: Staking Commission Specification
-authors: Darwinia Network (@AurevoirXavier, @hujw77, @hackfisher, @xiaoch05)
+authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77, @xiaoch05)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1238, https://github.com/orgs/darwinia-network/discussions/1272
 status: Final
 type: Economic

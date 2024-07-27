@@ -1,7 +1,7 @@
 ---
 dip: 5
 title: KTON Staking
-authors: Darwinia Network (@AurevoirXavier, @hujw77, @hackfisher)
+authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1393
 status: Final
 type: Economic
@@ -63,7 +63,7 @@ These changes are designed to streamline the staking process and enhance their e
 These amendments aim to fortify the transparency and simplicity of the staking mechanism, ensuring that stakeholders can engage with the system with greater clarity and confidence.
 
 ### Additional
-#### Migration strategy
+#### Migration Strategy
 To ensure a smooth protocol update, we've implemented a migration curve.
 Our goal is to minimize any impact on the rights of current staking users as much as possible.
 Users have **1** month to transition from V1 to V2.
