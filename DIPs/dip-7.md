@@ -25,6 +25,7 @@ This proposal aims to migrate the original collator staking and deposit function
 - **Deposit Contract**: Implement a deposit contract that replicates the functionality of the original deposit pallet, converting deposits into ERC721 NFT tokens. Users can use this NFT for further staking/unstaking in the RING staking contract.
   - The Deposit NFT can be transferred.
 - **Governance Integration**: RING, Deposit NFTs, staked RING, and Deposit NFTs in the staking contract can participate in the governance of RingDAO.
+  - 1 RING == 1 Vote
 - **Runtime**: Due to the limitations of the Polkadot-SDK framework, session rotation and reward distribution logic will still need to remain on the runtime pallet side.
 
 ### Details
