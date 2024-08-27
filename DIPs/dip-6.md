@@ -9,7 +9,13 @@ created: 2024-04-10
 ---
 
 
-# DIP-6
+# DIP-6 (DEPRECATED)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!! Replaced by [DIP-7](dip-7.md) !!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ## Abstract
 Restrict the rate of entry and exit in collator staking while eliminating the unstaking period to offer a more flexible staking system.
 
