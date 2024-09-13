@@ -3,14 +3,16 @@ dip: 3
 title: Introduce EIP-1559-like Mechanism to Reform the Network Fee Market
 authors: Darwinia Network (@hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1163
+relate-to: None
 status: Final
 type: Economic
 created: 2023-12-14
 ---
 
-
 # DIP-3
+
 ## Abstract
+
 This DIP suggests implementing `EIP-1559`-like mechanism within the Darwinia Network to transform its fee structure.
 
 Under this proposal, all transaction fees would be burned, while tips would be awarded directly to block authors.
@@ -19,14 +21,16 @@ The result is a more predictable, sustainable, and user-centric ecosystem.
 
 Before Darwinia adopts the new inflation model, this DIP will make minor adjustments to the inflation mechanism to prevent the reissuance of burned assets.
 
-
 ## Rationale
+
 ### Reasons
+
 1. By adopting `EIP-1559`, which replaces the gas auction system with a base fee plus a priority fee,
    users will benefit from more predictable transaction costs while also reducing network congestion during peak times.
    This improvement serves both individual users and the network overall.
 
 ### Future Objectives
+
 1. To align with our upcoming inflation model,
    the burning mechanism of `EIP-1559` for part of the transaction fees is consistent with Darwinia's strategy to revamp its inflation system.
    This approach aims to maintain long-term token value stability and promote sustainable development of the network.
@@ -36,11 +40,14 @@ Before Darwinia adopts the new inflation model, this DIP will make minor adjustm
    Doing so encourages wider token engagement within network activities and increases their practical value.
 
 ### References
+
 - https://eips.ethereum.org/EIPS/eip-1559
 - https://darwinia.network/Genepaper_v3.pdf
 
 ## Specification
+
 ### Transaction Fee Adjustment
+
 Integrate this within `DealWithFees` and pass the struct to `pallet-transaction` to enable the updated transaction fee model.
 ```rs
 impl pallet_transaction_payment::Config for Runtime {
@@ -81,6 +88,7 @@ where
 ```
 
 ### Inflation Adjustment (Darwinia Only)
+
 First, create the issuance map for Darwinia as outlined in the Darwinia Gene Paper.
 ```rs
 // Generate the issuing map.
@@ -127,6 +135,6 @@ pub fn issuing_in_period(period: Moment, elapsed: Moment) -> Option<Balance> {
 }
 ```
 
-
 ## Copyright
+
 Copyright and related rights waived via [CC0](../LICENSE).

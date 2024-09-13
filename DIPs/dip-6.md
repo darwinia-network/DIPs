@@ -3,13 +3,14 @@ dip: 6
 title: Flexible and Secure Staking System
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1455
-status: Final
+relate-to: DIP-7
+status: Superseded
 type: Economic
 created: 2024-04-10
 ---
 
+# DIP-6 (SUPERSEDED)
 
-# DIP-6 (DEPRECATED)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!! Replaced by [DIP-7](dip-7.md) !!!
@@ -17,10 +18,11 @@ created: 2024-04-10
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Abstract
+
 Restrict the rate of entry and exit in collator staking while eliminating the unstaking period to offer a more flexible staking system.
 
-
 ## Rationale
+
 1. Unlike the Darwinia1 solochain model, under the relaychain parachain model,
    security is upheld by validators on the relaychain side. Collators are solely responsible for block collection;
    therefore, the original mechanism for maintaining network security should be updated accordingly.
@@ -35,12 +37,13 @@ Restrict the rate of entry and exit in collator staking while eliminating the un
    they are unable to utilize those tokens to vote in referenda and contribute to a healthy community.
    This proposed mechanism addresses this issue specifically within the staking module, allowing users to withdraw their tokens immediately to participate in referenda.
 
-
 ## Specification
+
 - The maximum amount is set to `20_000_000` *RING* initially. It can be adjusted any time by governance.
 - To keep simplest, the specific time period is using the staking session period.
 
 ### Dynamic Rate Limit Strategy
+
 We propose the introduction of a dynamic rate limiter to control the flow of stake both into and out of the system.
 
 **Definitions:**
@@ -154,6 +157,6 @@ fn rate_limiter_should_work() {
 }
 ```
 
-
 ## Copyright
+
 Copyright and related rights waived via [CC0](../LICENSE).

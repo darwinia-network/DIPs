@@ -3,12 +3,14 @@ dip: 1
 title: Staking Commission Specification
 authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77, @xiaoch05)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1238, https://github.com/orgs/darwinia-network/discussions/1272
-status: Final
+relate-to: DIP-6
+status: Superseded
 type: Economic
 created: 2023-11-27
 ---
 
-# DIP-1 (DEPRECATED)
+# DIP-1 (SUPERSEDED)
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!! Replaced by [DIP-6](dip-6.md) !!!
@@ -16,16 +18,17 @@ created: 2023-11-27
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Abstract
+
 This DIP details the staking commission framework for Darwinia and Crab, impacting validator selection and reward allocation.
 
-
 ## Rationale
+
 Inspired by Polkadot, it seems fair to allow validators to set a commission to receive a certain fee from the nominators for maintaining their node.
 
 Polkadot's design requires a very active market, as validators can change their commission at any moment. This flexibility might allow dishonest validators to increase their commission significantly when their nominators are not paying attention. To counter this, we propose an inverse relationship where higher commission settings are discouraged. There is no standard value for this, leaving it to the market to decide.
 
-
 ## Specification
+
 There are `2` validator slots.
 
 Validator `A` sets their commission to `10%`.
@@ -38,6 +41,7 @@ Nominator `Ba` votes for `B` with `100` power.
 Nominator `Ca` votes for `C` with `1000` power.
 
 ### Election
+
 Due to the inverse relationship, the higher the commission a validator sets, the less power they receive.
 
 `A` and `C` are elected as validators, based on the following algorithm:
@@ -50,6 +54,7 @@ let validators = [pa, pb, pc].sort().iter().take(2).collect(); // , which is `[p
 ```
 
 ### Reward Distribution
+
 Validators receive their commission first, then distribute the remainder among their nominators.
 Each nominator receives a share of the reward based on the percentage of their power contribution relative to the total power under this validator.
 
@@ -66,6 +71,6 @@ let aar = remain * aa_of_pa; // , which is `90 * 90 / 135 = 60`.
 let abr = remain * aa_of_pa; // , which is `45 * 90 / 135 = 30`.
 ```
 
-
 ## Copyright
+
 Copyright and related rights waived via [CC0](../LICENSE).

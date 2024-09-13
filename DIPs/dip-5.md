@@ -3,14 +3,16 @@ dip: 5
 title: KTON Staking
 authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1393
+relate-to: DIP-0
 status: Final
 type: Economic
 created: 2024-01-29
 ---
 
-
 # DIP-5
+
 ## Abstract
+
 This DIP articulates the enhancement of the staking models.
 The modification aims to segregate the operational logic, thereby refining the models' lucidity and user comprehensibility.
 
@@ -22,8 +24,8 @@ The modification aims to segregate the operational logic, thereby refining the m
 
 The envisioned restructuring is projected to enhance the staking models' efficiency, transparency, and user engagement.
 
-
 ## Rationale
+
 The incumbent collator hybrid staking system within the Darwinia network has precipitated several complexities.
 The amalgamation of divergent incentivization objectives has rendered the system opaque and challenging to comprehend.
 Moreover, the binding of these incentives has resulted in restricted strategic actions, epitomizing suboptimal design.
@@ -39,8 +41,8 @@ The clarity of nomenclature and conceptualization is paramount, as it facilitate
 
 It is imperative to reiterate that the economic incentives for both the *RING* and *KTON* pools are envisioned to be preserved at their current magnitude, thereby circumventing discussions pertinent to the quantum of incentives.
 
-
 ## Specification
+
 These changes are designed to streamline the staking process and enhance their efficiency:
 
 1. Decouple *KTON* staking from collator staking.
@@ -63,7 +65,9 @@ These changes are designed to streamline the staking process and enhance their e
 These amendments aim to fortify the transparency and simplicity of the staking mechanism, ensuring that stakeholders can engage with the system with greater clarity and confidence.
 
 ### Additional
+
 #### Migration Strategy
+
 To ensure a smooth protocol update, we've implemented a migration curve.
 Our goal is to minimize any impact on the rights of current staking users as much as possible.
 Users have **1** month to transition from V1 to V2.
@@ -123,6 +127,7 @@ fn migration_curves_should_work() {
 ```
 
 #### Notification mechanism
+
 KTON staking rewards will be minted via the staking module.
 Currently, minting occurs on the Substrate framework.
 An EVM call is necessary to inform the contract that the reward has been issued.
@@ -196,4 +201,5 @@ where
 ```
 
 ## Copyright
+
 Copyright and related rights waived via [CC0](../LICENSE).
