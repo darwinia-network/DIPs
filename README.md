@@ -40,7 +40,7 @@ We welcome contributions from everyone! Follow these steps to submit a DIP:
    git clone https://github.com/darwinia-network/DIPs
    ```
 2. **Create a new DIP**:
-   - Copy the [template.md](DIPs/template.md) file.
+   - Copy the [template.md](template.md) file and paste it into the [DIPs](DIPs) folder.
    - Rename the file according to the DIP number you are submitting. For example, if you are submitting DIP-0, rename the file to `dip-0.md`.
 3. **Fill out the template**:
    - The template is minimal but comprehensive. Every section must be filled out as none of the sections are optional. You may, however, add additional sections if needed.
