@@ -3,7 +3,7 @@ dip: 7
 title: EVM Staking
 authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1481
-relate-to: DIP-6
+relate-to: [DIP-6](dip-6.md)
 status: Final
 type: Core
 created: 2024-06-30

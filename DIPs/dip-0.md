@@ -3,7 +3,7 @@ dip: 0
 title: Staking Power Specification
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
 discussions-to: None
-relate-to: DIP-5
+relate-to: [DIP-5](dip-5.md)
 status: Superseded
 type: Economic
 created: 2023-11-28
@@ -13,7 +13,7 @@ created: 2023-11-28
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!!! Replaced by [DIP-5](dip-5.md) !!!
+!!! Superseded by [DIP-5](dip-5.md) !!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 

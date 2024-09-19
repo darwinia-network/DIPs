@@ -3,7 +3,7 @@ dip: 1
 title: Staking Commission Specification
 authors: Darwinia Network (@AurevoirXavier, @hackfisher, @hujw77, @xiaoch05)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1238, https://github.com/orgs/darwinia-network/discussions/1272
-relate-to: DIP-6
+relate-to: [DIP-6](dip-6.md)
 status: Superseded
 type: Economic
 created: 2023-11-27
@@ -13,7 +13,7 @@ created: 2023-11-27
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!!! Replaced by [DIP-6](dip-6.md) !!!
+!!! Superseded by [DIP-6](dip-6.md) !!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 

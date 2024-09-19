@@ -3,7 +3,7 @@ dip: 6
 title: Flexible and Secure Staking System
 authors: Darwinia Network (@AurevoirXavier, @hackfisher)
 discussions-to: https://github.com/orgs/darwinia-network/discussions/1455
-relate-to: DIP-7
+relate-to: [DIP-7](dip-7.md)
 status: Superseded
 type: Economic
 created: 2024-04-10
@@ -13,7 +13,7 @@ created: 2024-04-10
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!!! Replaced by [DIP-7](dip-7.md) !!!
+!!! Superseded by [DIP-7](dip-7.md) !!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -27,7 +27,7 @@ Restrict the rate of entry and exit in collator staking while eliminating the un
    security is upheld by validators on the relaychain side. Collators are solely responsible for block collection;
    therefore, the original mechanism for maintaining network security should be updated accordingly.
 2. Currently, there is no staking slash mechanism in place, rendering the unbonding duration largely irrelevant.
-   This should be replaced by a different mechanism. However, should a staking slashing mechanism be implemented in the future,
+   This should be superseded by a different mechanism. However, should a staking slashing mechanism be implemented in the future,
    reintroduction of the unbonding duration should be reconsidered.
 3. Introducing a rate-limited mechanism can mitigate potential instability in token prices affecting network stability
    if the unbonding duration is removed. Other factors also play a role. Similar mechanisms are employed by Ethereum to maintain network stability.

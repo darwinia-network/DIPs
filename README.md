@@ -26,7 +26,7 @@ Each DIP goes through several stages during its lifecycle. Below are the common 
 - **Final**: The DIP has been merged and the necessary engineering work has been completed.
 - **Deferred**: The DIP has been postponed for future consideration.
 - **Rejected**: The DIP has been rejected and will not be implemented.
-- **Superseded**: The DIP has been replaced by a newer DIP.
+- **Superseded**: The DIP has been superseded by a newer DIP.
 - **Deprecated**: The DIP is no longer relevant and has been marked as deprecated.
 
 The status of a DIP is updated as it moves through the proposal process, ensuring clear communication of its current state.
