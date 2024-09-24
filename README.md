@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The Darwinia Improvement Proposals (DIPs) project is inspired by Ethereum's EIP process. This system is designed to gather, collect, and implement ideas from the Darwinia community to help the Darwinia network evolve. DIPs serve as a formalized way to propose new features, improvements, and changes to the Darwinia ecosystem, ensuring that the community’s best ideas are documented and implemented.
+The Darwinia Improvement Proposals (DIPs) project is inspired by Ethereum's EIPs process. This system is designed to gather, collect, and implement ideas from the Darwinia community to help the Darwinia network evolve. DIPs serve as a formalized way to propose new features, improvements, and changes to the Darwinia ecosystem, ensuring that the community’s best ideas are documented and implemented.
 
 ## DIP Workflow
 
