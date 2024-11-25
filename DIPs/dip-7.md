@@ -26,6 +26,7 @@ This proposal aims to migrate the original collator staking and deposit function
   - Users can engage in staking/unstaking through this contract, which will issue an ERC20 token with the ERC20Votes extension upon staking. This token cannot be transferred but serves as the governance token of RingDAO.
   - Since there is a time gap of 2 sessions between the election and the reward issuance, a lockout period is introduced to make up for this difference, so that the user needs to wait for the lockout period after the stake before performing the unstake operation.
   - Collators enter a lockout period when updating the commission, in order to prevent the collator from raising the commission on the blocks where the rewards are distributed, and lowering the commission on the blocks where the elections are held.
+  - The rewards for each session of the collator are distributed evenly over 7 days.
 - **Deposit Contract**: Implement a deposit contract that replicates the functionality of the original deposit pallet, converting deposits into ERC721 NFT tokens. Users can use this NFT for further staking/unstaking in the RING staking contract.
   - The Deposit NFT can be transferred.
 - **Governance Integration**: RING, Deposit NFTs, staked RING, and Deposit NFTs in the staking contract can participate in the governance of RingDAO.
